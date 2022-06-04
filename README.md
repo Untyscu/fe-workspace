@@ -8,8 +8,8 @@ For use this file just clone this repo in your project
 
 ```
 cd existing_repo/existing_project
-git remote add origin https://gitlab.com/untyscu/gulp.git
-git pull
+git remote add gulp https://gitlab.com/untyscu/gulp.git
+git pull gulp HEAD --allow-unrelated-histories
 ```
 
 ### Requirements

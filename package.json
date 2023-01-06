@@ -4,7 +4,8 @@
   "description": "Front-end workspace",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "gulp && gulp watch"
+    "start": "gulp && gulp watch",
+    "cfs" : "gulp createfs"
   },
   "repository": {
     "type": "git",

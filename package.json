@@ -1,0 +1,34 @@
+{
+  "name": "fe-workspace",
+  "version": "1.0.0",
+  "description": "Front-end workspace",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp && gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Untyscu/fe-workspace.git"
+  },
+  "keywords": [
+    "gulp",
+    "sass"
+  ],
+  "author": "Untyscu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Untyscu/fe-workspace/issues"
+  },
+  "homepage": "https://github.com/Untyscu/fe-workspace#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.11",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^8.0.0",
+    "sass": "^1.57.1"
+  }
+}
